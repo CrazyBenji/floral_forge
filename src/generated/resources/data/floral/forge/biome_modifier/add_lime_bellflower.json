@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#floral:lime_bellflower_biomes",
+  "features": "floral:lime_bellflower_placed",
+  "step": "vegetal_decoration"
+}

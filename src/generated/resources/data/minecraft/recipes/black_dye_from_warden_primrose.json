@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "floral:warden_primrose"
+    }
+  ],
+  "result": {
+    "item": "minecraft:black_dye"
+  }
+}

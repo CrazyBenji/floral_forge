@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#floral:cold_tulip_bunch_biomes",
+  "features": "floral:cold_tulip_bunch_placed",
+  "step": "vegetal_decoration"
+}

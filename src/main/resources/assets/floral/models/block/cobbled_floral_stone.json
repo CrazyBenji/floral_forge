@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "floral:block/cobbled_floral_stone"
+  }
+}

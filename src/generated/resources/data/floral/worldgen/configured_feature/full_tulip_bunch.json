@@ -1,0 +1,125 @@
+{
+  "type": "minecraft:flower",
+  "config": {
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
+              {
+                "data": {
+                  "Name": "minecraft:white_tulip"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "floral:light_gray_tulip"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "floral:gray_tulip"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "floral:black_tulip"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "minecraft:red_tulip"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "floral:brown_tulip"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "minecraft:orange_tulip"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "floral:yellow_tulip"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "floral:lime_tulip"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "floral:green_tulip"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "floral:cyan_tulip"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "floral:light_blue_tulip"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "floral:blue_tulip"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "floral:purple_tulip"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "floral:magenta_tulip"
+                },
+                "weight": 1
+              },
+              {
+                "data": {
+                  "Name": "minecraft:pink_tulip"
+                },
+                "weight": 1
+              }
+            ]
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:air"
+          }
+        }
+      ]
+    },
+    "tries": 36,
+    "xz_spread": 7,
+    "y_spread": 3
+  }
+}

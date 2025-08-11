@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "floral:flower_trimmers"
+    },
+    {
+      "tag": "floral:purple_flowers"
+    }
+  ],
+  "result": {
+    "count": 3,
+    "item": "floral:purple_petal"
+  }
+}

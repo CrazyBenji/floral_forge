@@ -1,0 +1,18 @@
+{
+  "parent": "minecraft:item/handheld",
+  "loader": "forge:separate_transforms",
+  "base": {
+    "parent": "floral:item/corpse_blossom_3d"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "floral:item/corpse_blossom_2d"
+    },
+    "ground": {
+      "parent": "floral:item/corpse_blossom_2d"
+    },
+    "fixed": {
+      "parent": "floral:item/corpse_blossom_2d"
+    }
+  }
+}

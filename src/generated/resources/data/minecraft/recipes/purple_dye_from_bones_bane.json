@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "floral:bones_bane"
+    }
+  ],
+  "result": {
+    "item": "minecraft:purple_dye"
+  }
+}

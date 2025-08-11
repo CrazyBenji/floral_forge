@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "P": {
+      "item": "floral:pink_petal"
+    },
+    "V": {
+      "item": "floral:thick_stalk"
+    }
+  },
+  "pattern": [
+    "   ",
+    "PVP",
+    "   "
+  ],
+  "result": {
+    "item": "floral:pink_alcea"
+  },
+  "show_notification": true
+}

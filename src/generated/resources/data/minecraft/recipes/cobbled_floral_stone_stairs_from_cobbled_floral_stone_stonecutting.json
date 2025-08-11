@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "floral:cobbled_floral_stone"
+  },
+  "result": "floral:cobbled_floral_stone_stairs"
+}

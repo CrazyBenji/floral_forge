@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "floral:blue_petal"
+    },
+    "C": {
+      "item": "minecraft:pink_petals"
+    }
+  },
+  "pattern": [
+    " B ",
+    "BCB",
+    " B "
+  ],
+  "result": {
+    "item": "floral:blue_aubrietas"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "floral:rocky_sedum"
+    }
+  ],
+  "result": {
+    "item": "minecraft:orange_dye"
+  }
+}

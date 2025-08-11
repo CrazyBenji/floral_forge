@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "floral:green_petal"
+    }
+  ],
+  "result": {
+    "item": "minecraft:green_dye"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#floral:green_dahlia_biomes",
+  "features": "floral:green_dahlia_placed",
+  "step": "vegetal_decoration"
+}

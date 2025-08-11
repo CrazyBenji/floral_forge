@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_deadheader": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "floral:deadheader"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_flower_trimmer": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "floral:flower_trimmer"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "lime_petal_from_floral:tall_lime_flowers"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_flower_trimmer",
+      "has_deadheader",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "lime_petal_from_floral:tall_lime_flowers"
+    ]
+  },
+  "sends_telemetry_event": false
+}

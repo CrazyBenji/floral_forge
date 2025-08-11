@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#floral:green_coneflower_biomes",
+  "features": "floral:green_coneflower_placed",
+  "step": "vegetal_decoration"
+}

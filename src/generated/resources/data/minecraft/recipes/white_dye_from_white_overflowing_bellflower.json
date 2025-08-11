@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "floral:white_overflowing_bellflower"
+    }
+  ],
+  "result": {
+    "item": "minecraft:white_dye"
+  }
+}

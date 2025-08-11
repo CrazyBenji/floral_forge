@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "floral:block/floral_stone",
+    "side": "floral:block/floral_stone",
+    "top": "floral:block/floral_stone"
+  }
+}

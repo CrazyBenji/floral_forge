@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "floral:weeping_roots"
+    }
+  ],
+  "result": {
+    "item": "minecraft:red_dye"
+  }
+}

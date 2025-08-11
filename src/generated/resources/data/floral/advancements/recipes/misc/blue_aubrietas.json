@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_blue_petal": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "floral:blue_petal"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_pink_petals": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pink_petals"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "floral:blue_aubrietas"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_pink_petals",
+      "has_blue_petal",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "floral:blue_aubrietas"
+    ]
+  },
+  "sends_telemetry_event": false
+}

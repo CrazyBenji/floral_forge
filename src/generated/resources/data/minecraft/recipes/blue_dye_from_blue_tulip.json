@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "floral:blue_tulip"
+    }
+  ],
+  "result": {
+    "item": "minecraft:blue_dye"
+  }
+}

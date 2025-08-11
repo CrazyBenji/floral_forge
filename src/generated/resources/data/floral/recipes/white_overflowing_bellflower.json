@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "floral:white_petal"
+    },
+    "D": {
+      "item": "floral:white_petal"
+    },
+    "F": {
+      "item": "minecraft:bone_block"
+    },
+    "W": {
+      "item": "minecraft:skeleton_skull"
+    }
+  },
+  "pattern": [
+    "FCF",
+    "DWD",
+    "FCF"
+  ],
+  "result": {
+    "item": "floral:white_overflowing_bellflower"
+  },
+  "show_notification": true
+}

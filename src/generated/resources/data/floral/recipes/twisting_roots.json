@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "floral:blue_petal"
+    },
+    "D": {
+      "item": "floral:cyan_petal"
+    },
+    "F": {
+      "item": "minecraft:warped_wart_block"
+    },
+    "N": {
+      "item": "floral:weeping_roots"
+    }
+  },
+  "pattern": [
+    "FCF",
+    "DND",
+    "FCF"
+  ],
+  "result": {
+    "item": "floral:twisting_roots"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#floral:petunia_bunch_biomes",
+  "features": "floral:petunia_bunch_placed",
+  "step": "vegetal_decoration"
+}

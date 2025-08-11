@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:end_stone"
+    },
+    "C": {
+      "item": "floral:light_gray_petal"
+    },
+    "D": {
+      "item": "floral:purple_petal"
+    },
+    "F": {
+      "item": "minecraft:chorus_fruit"
+    },
+    "W": {
+      "item": "minecraft:chorus_flower"
+    }
+  },
+  "pattern": [
+    "FCF",
+    "DWD",
+    "BCB"
+  ],
+  "result": {
+    "item": "floral:chorus_tulip"
+  },
+  "show_notification": true
+}

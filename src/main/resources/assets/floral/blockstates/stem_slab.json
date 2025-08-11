@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "floral:block/stem_slab"
+    },
+    "type=double": {
+      "model": "floral:block/stem_planks"
+    },
+    "type=top": {
+      "model": "floral:block/stem_slab_top"
+    }
+  }
+}

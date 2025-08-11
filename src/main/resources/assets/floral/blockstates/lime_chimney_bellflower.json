@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "floral:block/lime_chimney_bellflower_bottom"
+    },
+    "half=upper": {
+      "model": "floral:block/lime_chimney_bellflower_top"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "floral:flower_blend"
+    },
+    "C": {
+      "item": "floral:orange_petal"
+    },
+    "D": {
+      "item": "floral:brown_petal"
+    },
+    "F": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "pattern": [
+    "FCF",
+    "DBD",
+    "FCF"
+  ],
+  "result": {
+    "item": "floral:rocky_sedum"
+  },
+  "show_notification": true
+}

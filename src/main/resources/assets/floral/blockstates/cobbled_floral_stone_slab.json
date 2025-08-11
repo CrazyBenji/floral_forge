@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "floral:block/cobbled_floral_stone_slab"
+    },
+    "type=double": {
+      "model": "floral:block/cobbled_floral_stone"
+    },
+    "type=top": {
+      "model": "floral:block/cobbled_floral_stone_slab_top"
+    }
+  }
+}

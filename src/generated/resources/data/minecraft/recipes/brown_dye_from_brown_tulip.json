@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "floral:brown_tulip"
+    }
+  ],
+  "result": {
+    "item": "minecraft:brown_dye"
+  }
+}

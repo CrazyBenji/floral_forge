@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "floral:green_petal"
+    },
+    "V": {
+      "item": "minecraft:vine"
+    }
+  },
+  "pattern": [
+    " G ",
+    "GVG",
+    "   "
+  ],
+  "result": {
+    "item": "floral:thick_stalk"
+  },
+  "show_notification": true
+}

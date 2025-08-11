@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "floral:orange_petal"
+    }
+  ],
+  "result": {
+    "item": "minecraft:orange_dye"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "floral:block/stripped_stem_log_top",
+    "side": "floral:block/stripped_stem_log"
+  }
+}

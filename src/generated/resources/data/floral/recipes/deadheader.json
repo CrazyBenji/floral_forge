@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "L": {
+      "item": "floral:red_petal"
+    },
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "R": {
+      "item": "minecraft:leather"
+    },
+    "T": {
+      "item": "floral:flower_trimmer"
+    }
+  },
+  "pattern": [
+    "N N",
+    "LTL",
+    " R "
+  ],
+  "result": {
+    "item": "floral:deadheader"
+  },
+  "show_notification": true
+}

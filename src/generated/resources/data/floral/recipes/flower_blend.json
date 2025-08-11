@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:bone_meal"
+    },
+    "F": {
+      "tag": "minecraft:flowers"
+    }
+  },
+  "pattern": [
+    "FFF",
+    "FBF",
+    "FFF"
+  ],
+  "result": {
+    "count": 2,
+    "item": "floral:flower_blend"
+  },
+  "show_notification": true
+}

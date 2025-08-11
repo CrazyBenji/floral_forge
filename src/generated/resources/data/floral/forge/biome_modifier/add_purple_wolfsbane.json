@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#floral:purple_wolfsbane_biomes",
+  "features": "floral:purple_wolfsbane_placed",
+  "step": "vegetal_decoration"
+}

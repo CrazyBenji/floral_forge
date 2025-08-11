@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:cyan_dye_from_twisting_roots"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_twisting_roots": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "floral:twisting_roots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_twisting_roots",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:cyan_dye_from_twisting_roots"
+    ]
+  },
+  "sends_telemetry_event": false
+}

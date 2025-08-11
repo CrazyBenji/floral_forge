@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:sculk"
+    },
+    "C": {
+      "item": "floral:black_petal"
+    },
+    "D": {
+      "item": "minecraft:echo_shard"
+    },
+    "F": {
+      "item": "minecraft:sculk_shrieker"
+    },
+    "W": {
+      "item": "minecraft:sculk_catalyst"
+    }
+  },
+  "pattern": [
+    "FCF",
+    "DWD",
+    "BCB"
+  ],
+  "result": {
+    "item": "floral:warden_primrose"
+  },
+  "show_notification": true
+}

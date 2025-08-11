@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_rocky_sedum": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "floral:rocky_sedum"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:orange_dye_from_rocky_sedum"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_rocky_sedum",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:orange_dye_from_rocky_sedum"
+    ]
+  },
+  "sends_telemetry_event": false
+}

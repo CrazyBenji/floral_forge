@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "floral:white_petal"
+    },
+    "D": {
+      "item": "floral:purple_petal"
+    },
+    "F": {
+      "item": "floral:withered_petal"
+    },
+    "W": {
+      "item": "floral:purple_wolfsbane"
+    }
+  },
+  "pattern": [
+    "FCF",
+    "DWD",
+    "FCF"
+  ],
+  "result": {
+    "item": "floral:bones_bane"
+  },
+  "show_notification": true
+}

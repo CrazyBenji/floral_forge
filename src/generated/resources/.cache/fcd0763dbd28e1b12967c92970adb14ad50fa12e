@@ -1,0 +1,11 @@
+// 1.20.1	2025-08-11T17:04:03.7059465	Tags for minecraft:block mod id floral
+1bfb4795a18f6621f0f89bcd4e24ccd1aca71eb0 data/minecraft/tags/blocks/climbable.json
+b985d268ef74897070289b86fcab91d71c11f7da data/minecraft/tags/blocks/fences.json
+a55b1f09d3ea146e541a2aaa6084addec3fd27f9 data/minecraft/tags/blocks/fence_gates.json
+8bb5c01a4983f25bac4ebf6484e15a7e77be162e data/minecraft/tags/blocks/flowers.json
+1172f31463488eea808b87c52365252ad669712a data/minecraft/tags/blocks/flower_pots.json
+0ef114013a675a1bc99562442e459f3d7c485d42 data/minecraft/tags/blocks/logs_that_burn.json
+dfbc8ba063832b2519680de61231f25319ee4fea data/minecraft/tags/blocks/slabs.json
+53471f422ac531c9c2a316513bb88234c9346abb data/minecraft/tags/blocks/stairs.json
+22c8fefec6e6d4b09d20059bec41e7d2e17031d9 data/minecraft/tags/blocks/tall_flowers.json
+c1eeb1874ab27837e19cf07c4ff65f51237de995 data/minecraft/tags/blocks/walls.json
