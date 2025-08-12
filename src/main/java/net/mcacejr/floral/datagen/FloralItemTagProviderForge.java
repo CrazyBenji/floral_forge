@@ -2,6 +2,7 @@ package net.mcacejr.floral.datagen;
 
 import net.mcacejr.floral.FloralForge;
 import net.mcacejr.floral.block.FloralBlocks;
+import net.mcacejr.floral.block.FloralPlantHeadBlocks;
 import net.mcacejr.floral.item.FloralItems;
 import net.mcacejr.floral.util.ModTags;
 import net.minecraft.core.HolderLookup;
@@ -54,7 +55,7 @@ public class FloralItemTagProviderForge extends ItemTagsProvider {
                 .add(FloralBlocks.PURPLE_CHIMNEY_BELLFLOWER.get().asItem())
                 .add(FloralBlocks.GREEN_CONEFLOWER.get().asItem())
                 .add(FloralBlocks.BLUE_AUBRIETAS.get().asItem())
-                .add(FloralBlocks.PINK_ALCEA.get().asItem())
+                .add(FloralPlantHeadBlocks.PINK_ALCEA.get().asItem())
                 .add(FloralBlocks.LIGHT_GRAY_TULIP.get().asItem())
                 .add(FloralBlocks.GRAY_TULIP.get().asItem())
                 .add(FloralBlocks.BLACK_TULIP.get().asItem())
@@ -108,7 +109,7 @@ public class FloralItemTagProviderForge extends ItemTagsProvider {
                 .add(FloralBlocks.PURPLE_WOLFSBANE.get().asItem());
 
         this.tag(ItemTags.TALL_FLOWERS)
-                .add(FloralBlocks.PINK_ALCEA.get().asItem())
+                .add(FloralPlantHeadBlocks.PINK_ALCEA.get().asItem())
                 .add(FloralBlocks.PURPLE_CHIMNEY_BELLFLOWER.get().asItem())
                 .add(FloralBlocks.LIME_CHIMNEY_BELLFLOWER.get().asItem());
 
@@ -176,7 +177,7 @@ public class FloralItemTagProviderForge extends ItemTagsProvider {
                 .add(FloralBlocks.MAGENTA_CABARET.get().asItem())
                 .add(Blocks.ALLIUM.asItem());
         this.tag(ModTags.Items.PINK_FLOWERS)
-                .add(FloralBlocks.PINK_ALCEA.get().asItem())
+                .add(FloralPlantHeadBlocks.PINK_ALCEA.get().asItem())
                 .add(Blocks.PINK_TULIP.asItem());
         
         this.tag(ModTags.Items.TALL_RED_FLOWERS)

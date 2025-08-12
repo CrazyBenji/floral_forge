@@ -1,6 +1,7 @@
 package net.mcacejr.floral.datagen;
 
 import net.mcacejr.floral.block.FloralBlocks;
+import net.mcacejr.floral.block.FloralPlantHeadBlocks;
 import net.mcacejr.floral.item.FloralItems;
 import net.mcacejr.floral.util.ModTags;
 import net.minecraft.data.PackOutput;
@@ -183,7 +184,7 @@ public class FloralRecipeProviderForge extends RecipeProvider implements ICondit
         offerFlowerToDyeRecipe(exporter, FloralBlocks.PURPLE_CHIMNEY_BELLFLOWER.get().asItem(), Items.PURPLE_DYE, 2);
         offerFlowerToDyeRecipe(exporter, FloralBlocks.GREEN_CONEFLOWER.get().asItem(), Items.GREEN_DYE, 1);
         offerFlowerToDyeRecipe(exporter, FloralBlocks.BLUE_AUBRIETAS.get().asItem(), Items.BLUE_DYE, 1);
-        offerFlowerToDyeRecipe(exporter, FloralBlocks.PINK_ALCEA.get().asItem(), Items.PINK_DYE, 1);
+        offerFlowerToDyeRecipe(exporter, FloralPlantHeadBlocks.PINK_ALCEA.get().asItem(), Items.PINK_DYE, 1);
 
         offerFlowerToDyeRecipe(exporter, FloralBlocks.LIGHT_GRAY_TULIP.get().asItem(), Items.LIGHT_GRAY_DYE, 1);
         offerFlowerToDyeRecipe(exporter, FloralBlocks.GRAY_TULIP.get().asItem(), Items.GRAY_DYE, 1);
@@ -384,7 +385,7 @@ public class FloralRecipeProviderForge extends RecipeProvider implements ICondit
                 .unlockedBy(getHasName(Blocks.SKELETON_SKULL), has(Blocks.SKELETON_SKULL))
                 .save(exporter);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, FloralBlocks.THICK_VINES.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, FloralPlantHeadBlocks.THICK_VINES.get())
                 .pattern("   ")
                 .pattern("GVG")
                 .pattern(" G ")
@@ -393,7 +394,7 @@ public class FloralRecipeProviderForge extends RecipeProvider implements ICondit
                 .unlockedBy(getHasName(Blocks.VINE), has(Blocks.VINE))
                 .save(exporter);
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, FloralBlocks.THICK_STALK.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, FloralPlantHeadBlocks.THICK_STALK.get())
                 .pattern(" G ")
                 .pattern("GVG")
                 .pattern("   ")
@@ -403,13 +404,13 @@ public class FloralRecipeProviderForge extends RecipeProvider implements ICondit
                 .save(exporter);
 
 
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, FloralBlocks.PINK_ALCEA.get())
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, FloralPlantHeadBlocks.PINK_ALCEA.get())
                 .pattern("   ")
                 .pattern("PVP")
                 .pattern("   ")
                 .define('P', FloralItems.PINK_PETAL.get())
-                .define('V', FloralBlocks.THICK_STALK.get())
-                .unlockedBy(getHasName(FloralBlocks.THICK_STALK.get()), has(FloralBlocks.THICK_STALK.get()))
+                .define('V', FloralPlantHeadBlocks.THICK_STALK.get())
+                .unlockedBy(getHasName(FloralPlantHeadBlocks.THICK_STALK.get()), has(FloralPlantHeadBlocks.THICK_STALK.get()))
                 .unlockedBy(getHasName(FloralItems.PINK_PETAL.get()), has(FloralItems.PINK_PETAL.get()))
                 .save(exporter);
 

@@ -22,7 +22,7 @@ public class IvyRootsFloralEnchantment extends Enchantment {
 
     @Override
     public boolean checkCompatibility(@NotNull Enchantment other) {
-        return super.checkCompatibility(other) && other != FloralEnchantments.WITHERING_TOUCH.get() &&
+        return super.checkCompatibility(other) && !(other instanceof WitheringTouchFloralEnchantment) &&
                 other!= Enchantments.SHARPNESS &&
                 other != Enchantments.SMITE &&
                 other != Enchantments.BANE_OF_ARTHROPODS;

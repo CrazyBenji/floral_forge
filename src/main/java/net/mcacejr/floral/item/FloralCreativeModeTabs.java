@@ -2,6 +2,7 @@ package net.mcacejr.floral.item;
 
 import net.mcacejr.floral.FloralForge;
 import net.mcacejr.floral.block.FloralBlocks;
+import net.mcacejr.floral.block.FloralPlantHeadBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -47,9 +48,9 @@ public class FloralCreativeModeTabs {
                         entries.accept(FloralBlocks.LIME_CHIMNEY_BELLFLOWER.get());
                         entries.accept(FloralBlocks.PURPLE_WOLFSBANE.get());
 
-                        entries.accept(FloralBlocks.THICK_STALK.get());
-                        entries.accept(FloralBlocks.THICK_VINES.get());
-                        entries.accept(FloralBlocks.PINK_ALCEA.get());
+                        entries.accept(FloralPlantHeadBlocks.THICK_STALK.get());
+                        entries.accept(FloralPlantHeadBlocks.THICK_VINES.get());
+                        entries.accept(FloralPlantHeadBlocks.PINK_ALCEA.get());
 
                         entries.accept(FloralItems.FLOWER_BLEND.get());
 

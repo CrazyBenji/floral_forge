@@ -1,6 +1,6 @@
 package net.mcacejr.floral.item.custom;
 
-import net.mcacejr.floral.block.FloralBlocks;
+import net.mcacejr.floral.block.custom.FloralPlantBodyBlock;
 import net.minecraft.core.BlockPos;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.world.InteractionResult;
@@ -30,18 +30,12 @@ public class FlowerBlendItem extends Item {
 
             Level world = context.getLevel();
 
-            if (selectedBlockState.is(BlockTags.FLOWERS))
-            {
-
-                if (selectedBlockState.is(FloralBlocks.PINK_ALCEA_PLANT.get()))
-                {
-
-                    Block.popResource(world, pos, new ItemStack(FloralBlocks.PINK_ALCEA.get()));
-
-                } else {
-
+            if (selectedBlockState.is(BlockTags.FLOWERS)) {
+                if (selectedBlockState.getBlock() instanceof FloralPlantBodyBlock && ((FloralPlantBodyBlock) selectedBlockState.getBlock()).canUseFlowerBlend()) {
                     Block.popResource(world, pos, new ItemStack(selectedBlockState.getBlock()));
-
+                }
+                else if (!(selectedBlockState.getBlock() instanceof FloralPlantBodyBlock)) {
+                    Block.popResource(world, pos, new ItemStack(selectedBlockState.getBlock()));
                 }
 
                 world.globalLevelEvent(LevelEvent.PARTICLES_AND_SOUND_PLANT_GROWTH, pos, 0);
@@ -49,13 +43,8 @@ public class FlowerBlendItem extends Item {
                 context.getItemInHand().shrink(1);
 
                 return InteractionResult.SUCCESS;
-
             }
-
         }
-
         return InteractionResult.FAIL;
-
     }
-
 }

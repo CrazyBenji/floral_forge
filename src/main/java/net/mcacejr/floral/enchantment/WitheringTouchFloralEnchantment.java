@@ -1,6 +1,5 @@
 package net.mcacejr.floral.enchantment;
 
-
 import net.mcacejr.floral.item.custom.CorpseBlossomSword;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.ItemStack;
@@ -17,7 +16,7 @@ public class WitheringTouchFloralEnchantment extends Enchantment {
 
     @Override
     public boolean checkCompatibility(@NotNull Enchantment other) {
-        return super.checkCompatibility(other) && other != FloralEnchantments.IVY_ROOTS.get() &&
+        return super.checkCompatibility(other) && !(other instanceof IvyRootsFloralEnchantment) &&
                 other!= Enchantments.SHARPNESS &&
                 other != Enchantments.SMITE &&
                 other != Enchantments.BANE_OF_ARTHROPODS;

@@ -2,6 +2,8 @@ package net.mcacejr.floral.datagen;
 
 import net.mcacejr.floral.FloralForge;
 import net.mcacejr.floral.block.FloralBlocks;
+import net.mcacejr.floral.block.FloralPlantBodyBlocks;
+import net.mcacejr.floral.block.FloralPlantHeadBlocks;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.tags.BlockTags;
@@ -30,8 +32,8 @@ public class FloralBlockTagProviderForge extends BlockTagsProvider {
                 .add(FloralBlocks.GREEN_CONEFLOWER.get())
                 .add(FloralBlocks.PURPLE_CHIMNEY_BELLFLOWER.get())
                 .add(FloralBlocks.BLUE_AUBRIETAS.get())
-                .add(FloralBlocks.PINK_ALCEA.get())
-                .add(FloralBlocks.PINK_ALCEA_PLANT.get())
+                .add(FloralPlantHeadBlocks.PINK_ALCEA.get())
+                .add(FloralPlantBodyBlocks.PINK_ALCEA_PLANT.get())
                 .add(FloralBlocks.LIGHT_GRAY_TULIP.get())
                 .add(FloralBlocks.GRAY_TULIP.get())
                 .add(FloralBlocks.BLACK_TULIP.get())
@@ -59,13 +61,13 @@ public class FloralBlockTagProviderForge extends BlockTagsProvider {
         this.tag(BlockTags.TALL_FLOWERS)
                 .add(FloralBlocks.PURPLE_CHIMNEY_BELLFLOWER.get())
                 .add(FloralBlocks.LIME_CHIMNEY_BELLFLOWER.get())
-                .add(FloralBlocks.PINK_ALCEA.get());
+                .add(FloralPlantHeadBlocks.PINK_ALCEA.get());
 
         this.tag(BlockTags.CLIMBABLE)
-                .add(FloralBlocks.THICK_STALK.get())
-                .add(FloralBlocks.THICK_STALK_PLANT.get())
-                .add(FloralBlocks.THICK_VINES.get())
-                .add(FloralBlocks.THICK_VINES_PLANT.get());
+                .add(FloralPlantHeadBlocks.THICK_STALK.get())
+                .add(FloralPlantBodyBlocks.THICK_STALK_PLANT.get())
+                .add(FloralPlantHeadBlocks.THICK_VINES.get())
+                .add(FloralPlantBodyBlocks.THICK_VINES_PLANT.get());
 
         this.tag(BlockTags.FLOWER_POTS)
                 .add(FloralBlocks.POTTED_BLACK_PETUNIA.get())

@@ -1,6 +1,8 @@
 package net.mcacejr.floral.datagen.loot;
 
 import net.mcacejr.floral.block.FloralBlocks;
+import net.mcacejr.floral.block.FloralPlantBodyBlocks;
+import net.mcacejr.floral.block.FloralPlantHeadBlocks;
 import net.minecraft.data.loot.BlockLootSubProvider;
 import net.minecraft.world.flag.FeatureFlags;
 import net.minecraft.world.level.block.Block;
@@ -34,9 +36,9 @@ public class FloralBlockLootTables extends BlockLootSubProvider {
 
         this.dropSelf(FloralBlocks.BLUE_AUBRIETAS.get());
 
-        this.addNetherVinesDropTable(FloralBlocks.THICK_STALK.get(), FloralBlocks.THICK_STALK_PLANT.get());
-        this.addNetherVinesDropTable(FloralBlocks.THICK_VINES.get(), FloralBlocks.THICK_VINES_PLANT.get());
-        this.addNetherVinesDropTable(FloralBlocks.PINK_ALCEA.get(), FloralBlocks.PINK_ALCEA_PLANT.get());
+        this.addNetherVinesDropTable(FloralPlantHeadBlocks.THICK_STALK.get(), FloralPlantBodyBlocks.THICK_STALK_PLANT.get());
+        this.addNetherVinesDropTable(FloralPlantHeadBlocks.THICK_VINES.get(), FloralPlantBodyBlocks.THICK_VINES_PLANT.get());
+        this.addNetherVinesDropTable(FloralPlantHeadBlocks.PINK_ALCEA.get(), FloralPlantBodyBlocks.PINK_ALCEA_PLANT.get());
 
         this.dropSelf(FloralBlocks.LIGHT_GRAY_TULIP.get());
         this.dropPottedContents(FloralBlocks.POTTED_LIGHT_GRAY_TULIP.get());
