@@ -1,0 +1,653 @@
+{
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "block.floral.black_petunia": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "floral:black_petunia"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "block.floral.black_tulip": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "floral:black_tulip"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "block.floral.blue_tulip": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "floral:blue_tulip"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "block.floral.brown_tulip": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "floral:brown_tulip"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "block.floral.cyan_tulip": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "floral:cyan_tulip"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "block.floral.gray_tulip": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "floral:gray_tulip"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "block.floral.green_coneflower": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "floral:green_coneflower"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "block.floral.green_dahlia": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "floral:green_dahlia"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "block.floral.green_tulip": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "floral:green_tulip"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "block.floral.light_blue_tulip": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "floral:light_blue_tulip"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "block.floral.light_gray_tulip": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "floral:light_gray_tulip"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "block.floral.lime_bellflower": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "floral:lime_bellflower"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "block.floral.lime_chimney_bellflower": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "floral:lime_chimney_bellflower"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "block.floral.lime_tulip": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "floral:lime_tulip"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "block.floral.magenta_cabaret": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "floral:magenta_cabaret"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "block.floral.magenta_tulip": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "floral:magenta_tulip"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "block.floral.purple_bellflower": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "floral:purple_bellflower"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "block.floral.purple_chimney_bellflower": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "floral:purple_chimney_bellflower"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "block.floral.purple_tulip": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "floral:purple_tulip"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "block.floral.purple_wolfsbane": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "floral:purple_wolfsbane"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "block.floral.red_petunia": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "floral:red_petunia"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "block.floral.yellow_tulip": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "floral:yellow_tulip"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "block.minecraft.allium": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:allium"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "block.minecraft.azure_bluet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:azure_bluet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "block.minecraft.blue_orchid": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blue_orchid"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "block.minecraft.cornflower": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cornflower"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "block.minecraft.dandelion": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:dandelion"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "block.minecraft.lilac": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lilac"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "block.minecraft.lily_of_the_valley": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:lily_of_the_valley"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "block.minecraft.orange_tulip": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:orange_tulip"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "block.minecraft.oxeye_daisy": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:oxeye_daisy"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "block.minecraft.peony": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:peony"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "block.minecraft.pink_petals": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pink_petals"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "block.minecraft.pink_tulip": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:pink_tulip"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "block.minecraft.poppy": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:poppy"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "block.minecraft.red_tulip": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:red_tulip"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "block.minecraft.rose_bush": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:rose_bush"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "block.minecraft.spore_blossom": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:spore_blossom"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "block.minecraft.sunflower": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sunflower"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "block.minecraft.torchflower": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:torchflower"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "block.minecraft.white_tulip": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:white_tulip"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "block.minecraft.wither_rose": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wither_rose"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.husbandry.get_all_flowers.description"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:poppy"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.husbandry.get_all_flowers.title"
+    }
+  },
+  "requirements": [
+    [
+      "block.floral.black_petunia"
+    ],
+    [
+      "block.floral.red_petunia"
+    ],
+    [
+      "block.minecraft.spore_blossom"
+    ],
+    [
+      "block.floral.purple_bellflower"
+    ],
+    [
+      "block.floral.purple_chimney_bellflower"
+    ],
+    [
+      "block.floral.green_coneflower"
+    ],
+    [
+      "block.floral.light_gray_tulip"
+    ],
+    [
+      "block.floral.gray_tulip"
+    ],
+    [
+      "block.floral.black_tulip"
+    ],
+    [
+      "block.floral.brown_tulip"
+    ],
+    [
+      "block.floral.yellow_tulip"
+    ],
+    [
+      "block.floral.lime_tulip"
+    ],
+    [
+      "block.floral.green_tulip"
+    ],
+    [
+      "block.floral.cyan_tulip"
+    ],
+    [
+      "block.floral.light_blue_tulip"
+    ],
+    [
+      "block.floral.blue_tulip"
+    ],
+    [
+      "block.floral.purple_tulip"
+    ],
+    [
+      "block.floral.magenta_tulip"
+    ],
+    [
+      "block.floral.green_dahlia"
+    ],
+    [
+      "block.floral.magenta_cabaret"
+    ],
+    [
+      "block.floral.lime_bellflower"
+    ],
+    [
+      "block.floral.lime_chimney_bellflower"
+    ],
+    [
+      "block.floral.purple_wolfsbane"
+    ],
+    [
+      "block.minecraft.pink_petals"
+    ],
+    [
+      "block.minecraft.sunflower"
+    ],
+    [
+      "block.minecraft.lilac"
+    ],
+    [
+      "block.minecraft.peony"
+    ],
+    [
+      "block.minecraft.rose_bush"
+    ],
+    [
+      "block.minecraft.dandelion"
+    ],
+    [
+      "block.minecraft.poppy"
+    ],
+    [
+      "block.minecraft.blue_orchid"
+    ],
+    [
+      "block.minecraft.allium"
+    ],
+    [
+      "block.minecraft.azure_bluet"
+    ],
+    [
+      "block.minecraft.red_tulip"
+    ],
+    [
+      "block.minecraft.orange_tulip"
+    ],
+    [
+      "block.minecraft.white_tulip"
+    ],
+    [
+      "block.minecraft.pink_tulip"
+    ],
+    [
+      "block.minecraft.oxeye_daisy"
+    ],
+    [
+      "block.minecraft.cornflower"
+    ],
+    [
+      "block.minecraft.lily_of_the_valley"
+    ],
+    [
+      "block.minecraft.wither_rose"
+    ],
+    [
+      "block.minecraft.torchflower"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

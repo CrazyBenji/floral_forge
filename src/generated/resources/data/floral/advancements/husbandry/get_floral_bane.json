@@ -1,0 +1,39 @@
+{
+  "parent": "floral:husbandry/get_flower_trimmers",
+  "criteria": {
+    "floral_bane": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "floral:floral_bane"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.husbandry.get_floral_bane.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "floral:floral_bane",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.husbandry.get_floral_bane.title"
+    }
+  },
+  "requirements": [
+    [
+      "floral_bane"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

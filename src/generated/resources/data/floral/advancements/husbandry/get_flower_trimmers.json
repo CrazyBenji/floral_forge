@@ -1,0 +1,39 @@
+{
+  "parent": "minecraft:husbandry/root",
+  "criteria": {
+    "flower_trimmers": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "floral:flower_trimmer"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.husbandry.get_flower_trimmers.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "floral:flower_trimmer",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.husbandry.get_flower_trimmers.title"
+    }
+  },
+  "requirements": [
+    [
+      "flower_trimmers"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

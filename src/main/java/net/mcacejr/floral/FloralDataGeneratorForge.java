@@ -23,6 +23,7 @@ public class FloralDataGeneratorForge {
         generator.addProvider(event.includeServer(), new FloralWorldGenProvider(packOutput, lookupProvider));
         generator.addProvider(event.includeServer(), new FloralRecipeProviderForge(packOutput));
         generator.addProvider(event.includeServer(), FloralLootTableProvider.create(packOutput));
+        generator.addProvider(event.includeServer(), new FloralAdvancementProviderForge(packOutput, lookupProvider, existingFileHelper));
 
         FloralBlockTagProviderForge blockTagGenerator = generator.addProvider(event.includeServer(),
                 new FloralBlockTagProviderForge(packOutput, lookupProvider, existingFileHelper));

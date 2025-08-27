@@ -1,0 +1,39 @@
+{
+  "parent": "floral:husbandry/get_flower_trimmers",
+  "criteria": {
+    "deadheader": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "floral:deadheader"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.husbandry.get_deadheader.description"
+    },
+    "frame": "challenge",
+    "hidden": true,
+    "icon": {
+      "item": "floral:deadheader",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.husbandry.get_deadheader.title"
+    }
+  },
+  "requirements": [
+    [
+      "deadheader"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -107,6 +107,17 @@
 
   "item.floral.floral_bloom_tier_1": "Mini Floral Bloom",
   "item.floral.floral_bloom_tier_2": "Floral Bloom",
-  "item.floral.floral_bloom_tier_3": "Mega Floral Bloom"
+  "item.floral.floral_bloom_tier_3": "Mega Floral Bloom",
+
+  "advancements.husbandry.get_flower_trimmers.title": "Trim This",
+  "advancements.husbandry.get_flower_trimmers.description": "Acquire Flower Trimmers",
+  "advancements.husbandry.get_deadheader.title": "Kind of a Big Dill",
+  "advancements.husbandry.get_deadheader.description": "Acquire the Deadheader",
+  "advancements.husbandry.get_corpse_blossom.title": "I Beg Your Garden",
+  "advancements.husbandry.get_corpse_blossom.description": "Acquire the Corpse Blossom",
+  "advancements.husbandry.get_floral_bane.title": "Flower's Revenge",
+  "advancements.husbandry.get_floral_bane.description": "Acquire the Floral Bane",
+  "advancements.husbandry.get_all_flowers.title": "I Haven't Botany Plans Today",
+  "advancements.husbandry.get_all_flowers.description": "Find all the flowers in the game"
 
 }

@@ -1,0 +1,39 @@
+{
+  "parent": "floral:husbandry/get_flower_trimmers",
+  "criteria": {
+    "corpse_blossom": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "floral:corpse_blossom"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.husbandry.get_corpse_blossom.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "floral:corpse_blossom",
+      "nbt": "{Damage:0}"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.husbandry.get_corpse_blossom.title"
+    }
+  },
+  "requirements": [
+    [
+      "corpse_blossom"
+    ]
+  ],
+  "sends_telemetry_event": true
+}
