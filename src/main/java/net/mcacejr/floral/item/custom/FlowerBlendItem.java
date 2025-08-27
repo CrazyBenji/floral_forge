@@ -9,7 +9,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.context.UseOnContext;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.LevelEvent;
+import net.minecraft.world.level.block.FlowerPotBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import org.jetbrains.annotations.NotNull;
 
@@ -38,7 +38,9 @@ public class FlowerBlendItem extends Item {
                     Block.popResource(world, pos, new ItemStack(selectedBlockState.getBlock()));
                 }
 
-                world.globalLevelEvent(LevelEvent.PARTICLES_AND_SOUND_PLANT_GROWTH, pos, 0);
+                if (!world.isClientSide) {
+                    world.levelEvent(1505, pos, 0);
+                }
 
                 context.getItemInHand().shrink(1);
 
