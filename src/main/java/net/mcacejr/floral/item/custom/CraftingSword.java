@@ -21,4 +21,9 @@ public class CraftingSword extends SwordItem {
         return newStack;
     }
 
+    @Override
+    public boolean hasCraftingRemainingItem(ItemStack stack) {
+        return true;
+    }
+
 }
