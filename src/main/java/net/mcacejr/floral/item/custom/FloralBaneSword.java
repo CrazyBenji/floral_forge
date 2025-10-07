@@ -1,5 +1,9 @@
 package net.mcacejr.floral.item.custom;
 
+import net.mcacejr.floral.FloralForge;
+import net.mcacejr.floral.effect.DeathPrickMobEffect;
+import net.mcacejr.floral.effect.FloralMobEffects;
+import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ItemStack;
@@ -15,9 +19,8 @@ public class FloralBaneSword extends SwordItem {
 
     @Override
     public boolean hurtEnemy(ItemStack stack, @NotNull LivingEntity target, @NotNull LivingEntity attacker) {
-        // target.addEffect(new MobEffectInstance(FloralForge.DEATH_PRICK, 20 * 60 * 60 * 24));
-        stack.hurtAndBreak(1, attacker, e -> e.broadcastBreakEvent(EquipmentSlot.MAINHAND));
-        return true;
+        target.addEffect(new MobEffectInstance(FloralMobEffects.DEATH_PRICK.get(), 20 * 60 * 60 * 24));
+        return super.hurtEnemy(stack, target, attacker);
     }
 
 }
